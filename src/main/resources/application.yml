@@ -1,5 +1,6 @@
 server:
   port: 9091
+##可以在启动时指定 -Dspring.profiles.active=develop
 spring:
   profiles:
     active: @env@
